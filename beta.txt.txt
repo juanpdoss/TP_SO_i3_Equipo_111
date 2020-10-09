@@ -2,38 +2,23 @@ Juan Pablo Dos Santos
 hora:12:31
 Configuración IP de Windows
 
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.44  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 2800:810:47f:d3:8944:21f7:9d60:df77  prefixlen 64  scopeid 0x0<global>
+        inet6 2800:810:47f:d3:d458:4870:5f4:f19c  prefixlen 64  scopeid 0x0<global>
+        inet6 2800:810:47f:d3::1002  prefixlen 128  scopeid 0x0<global>
+        inet6 fe80::e5a9:9045:8fd1:5295  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:2f:11:90  txqueuelen 1000  (Ethernet)
+        RX packets 7339  bytes 7641219 (7.6 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4141  bytes 410755 (410.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-Adaptador de Ethernet Ethernet:
-
-   Estado de los medios. . . . . . . . . . . : medios desconectados
-   Sufijo DNS específico para la conexión. . :
-
-Adaptador de Ethernet VirtualBox Host-Only Network:
-
-   Sufijo DNS específico para la conexión. . :
-   Vínculo: dirección IPv6 local. . . : fe80::b905:a2b7:8659:37a1%17
-   Dirección IPv4. . . . . . . . . . . . . . : 192.168.56.1
-   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
-   Puerta de enlace predeterminada . . . . . :
-
-Adaptador de LAN inalámbrica Conexión de área local* 1:
-
-   Estado de los medios. . . . . . . . . . . : medios desconectados
-   Sufijo DNS específico para la conexión. . :
-
-Adaptador de LAN inalámbrica Conexión de área local* 2:
-
-   Estado de los medios. . . . . . . . . . . : medios desconectados
-   Sufijo DNS específico para la conexión. . :
-
-Adaptador de LAN inalámbrica Wi-Fi:
-
-   Sufijo DNS específico para la conexión. . :
-   Dirección IPv6 . . . . . . . . . . : 2800:810:47f:d3::1000
-   Dirección IPv6 . . . . . . . . . . : 2800:810:47f:d3:1ddc:52f0:b7a1:f773
-   Dirección IPv6 temporal. . . . . . : 2800:810:47f:d3:986b:4303:4416:d2a3
-   Vínculo: dirección IPv6 local. . . : fe80::1ddc:52f0:b7a1:f773%7
-   Dirección IPv4. . . . . . . . . . . . . . : 192.168.0.38
-   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
-   Puerta de enlace predeterminada . . . . . : fe80::eaad:a6ff:fe16:d980%7
-                                       192.168.0.1
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 401  bytes 43618 (43.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 401  bytes 43618 (43.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
