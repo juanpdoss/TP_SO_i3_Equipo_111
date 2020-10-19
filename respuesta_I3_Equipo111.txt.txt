@@ -12,3 +12,16 @@ b git merge DosSantos
 c git add .
 d git commit 
 e git push origin master 
+
+4) No, quedan con los datos incluidos hasta antes de hacer el merge
+
+5) Una vez que entendimos la lógica y como movernos entre las distintas ramas(y que para ir a la rama master se debe poner main), no se presento ninguno inconveniente.
+
+6) Tuve que pasarme a la rama creada por beta y hacer un pull. Luego, cuando ya tenia el archivo beta.txt disponible, agregué los datos correspondientes.
+
+Comandos: Git checkout DosSantos (rama creada por beta)
+	  git pull
+
+Luego de agregar los datos: git add .
+			    git commit
+			    git push
