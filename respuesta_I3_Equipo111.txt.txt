@@ -25,3 +25,10 @@ Comandos: Git checkout DosSantos (rama creada por beta)
 Luego de agregar los datos: git add .
 			    git commit
 			    git push
+
+7)
+* git pull (para actualizar la lista de branches y que me aparezca el branch DosSantos)
+* git checkout DosSantos
+* git add . (una vez modificado el archivo beta.txt)
+* git commit -m
+* git push
