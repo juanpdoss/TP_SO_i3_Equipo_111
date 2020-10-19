@@ -1,0 +1,14 @@
+Agustin Clas
+Federico Soria
+Juan Pablo Dos Santos
+
+1)El master queda con todos los documentos creados.
+
+2) Sí, pudo ver los cambios que se realizaron entrando a las ramas, no desde el main.
+
+3) Los pasos en orden fueron: 
+a git checkout main
+b git merge DosSantos
+c git add .
+d git commit 
+e git push origin master 
